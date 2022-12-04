@@ -1,3 +1,12 @@
+/*
+Read file input
+Split() by newline
+Define a function to determine results from Rock-Paper-Scissors
+Converts A B C / X Y Z to numbers with the 2-D array to return value
+Use reduce() to find the total score
+Part 2 requirements change problem set slightly, just adjust 2-D array.
+*/
+
 const input = await Deno.readTextFile("./input.txt")
 const inputResult = input.split(/\r?\n/);
 
